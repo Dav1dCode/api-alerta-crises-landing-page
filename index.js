@@ -5,6 +5,9 @@ const alertasRoutes = require('./alertas');
 
 app.use(express.json());
 
+app.use(express.static(path.join(__dirname)));
+
+
 app.get('/landing', (req, res) => {
     res.sendFile(path.join(__dirname, 'landing.html'));
 });
