@@ -16,12 +16,17 @@ h1 {
     color: #ff4c4c; 
 }
 
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
 #alertas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 1200px; 
     margin: 0 auto; 
 }
 
@@ -32,6 +37,7 @@ h1 {
     padding: 15px;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 300px; 
+    min-height: 100px; 
 }
 
 #alertas li:hover {
@@ -45,6 +51,7 @@ footer {
     font-size: 0.8em;
     color: #666; 
 }
+
 
 strong {
     display: block;
