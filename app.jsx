@@ -1,5 +1,5 @@
 import React from 'react';
-import AlertasPage from './AlertasPage';
+import AlertasPage from './alertaspage';
 
 function App() {
   return (
